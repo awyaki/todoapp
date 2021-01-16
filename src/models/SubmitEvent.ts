@@ -1,0 +1,1 @@
+export type SubmitEvent<T extends HTMLElement> = Event & { submitter: T};
